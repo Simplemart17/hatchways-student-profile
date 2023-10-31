@@ -1,0 +1,85 @@
+.Profile-container {
+  display: flex;
+  width: 100%;
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 0.0125rem solid black;
+}
+
+.Profile-info-container {
+  width: 100%;
+}
+
+.Profile-img-wrapper {
+  width: 25%;
+  margin-right: 2rem;
+}
+
+.Profile-img {
+  border: 0.0125rem solid #b1b1b1;
+  border-radius: 100%;
+  width: 100%;
+}
+
+.Profile-icon {
+  width: 2rem;
+}
+
+.Profile-icon:hover {
+  -webkit-filter : invert(40%);
+  filter: invert(40%);
+}
+
+.Profile-name-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 1.5rem;
+}
+
+.Profile-name {
+  text-transform: uppercase;
+}
+
+.Profile-details {
+  margin-top: 1rem;
+  padding-left: 1rem;
+  font-size: small;
+}
+
+.Profile-details > p {
+  margin-bottom: 0.19rem;
+}
+
+.Profile-score {
+  margin-top: 1rem;
+}
+
+.Profile-score > p {
+  margin-bottom: 0.19rem;
+}
+
+.Profile-input-width {
+  width: 5rem;
+  font-size: small;
+}
+
+.Profile-tag {
+  display: flex;
+}
+
+.Profile-tag > p {
+  background-color: #cccccc;
+  width: 15%;
+  margin: 0.5rem 0 0 0.25rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+.Profile-not-found {
+  text-align: center;
+  margin-top: 2rem;
+}
